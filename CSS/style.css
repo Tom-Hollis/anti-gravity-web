@@ -1,0 +1,266 @@
+
+/* Global */
+html {
+    font-size: 62.5%;
+}
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hide {
+    display: none;
+}
+
+/* Typography */
+body {
+    font-family: helvetica, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color:rgba(0,0,0,0.8);
+}
+
+nav a:hover {
+    color: rgba(0,0,0,0.5);
+    transition:  200ms ease-in-out;
+}
+
+h1 {
+    font-size: 9em;
+    font-weight: 700;
+}
+
+h2 {
+    font-size: 6em;
+    font-weight: 700;
+}
+
+h3 {
+    font-size: 3em;
+    font-weight: 600;
+}
+
+p {
+    font-size: 2em;
+    font-weight: 400;
+}
+
+nav li {
+    text-decoration: none;
+    font-size: 2em;
+    font-weight: 900;
+}
+
+
+.service-list li {
+    font-size: 6em;
+    font-weight: 900;
+    color: #7D7D7D;
+}
+
+.service-list a {
+    font-size: 0.9em;
+    font-weight: 900;
+    color: #7D7D7D;
+    transition:  200ms ease-in-out;
+}
+
+.service-list a:hover{
+    color: rgb(177, 177, 177);
+}
+
+
+/* Button */
+
+.button {
+    width: 270px;
+    height: 68px;
+    border: solid 2px #303030;
+    border-radius: 4px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition:  200ms ease-in-out;
+}
+
+.button:hover {
+    background-color: #303030;
+    color: white;
+}
+
+.button p {
+    font-weight: 100;
+}
+
+/* Images */
+
+nav img {
+    height: 50px;
+}
+
+/* structures */
+
+.container {
+    padding: 5%;
+    margin: 0 auto;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 110px;
+    padding: 0 4%;
+}
+
+nav li {
+    display: inline-block;
+    padding: 0 25px;
+}
+
+
+
+/* Homepage */
+
+.header {
+    height: calc(100vh - 240px);
+    text-align: center;
+    background-color: rgb(241, 84, 56); 
+    color: white;
+}
+
+.header img {
+    margin-bottom: 60px;
+}
+
+.credentials {
+    padding-top: 70px;
+    background-image: linear-gradient(#EBEBEB, #FFFFFD);
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.credentials-container {
+    margin-top: 200px;
+    background-image: linear-gradient(#EBEBEB, #FFFFFD);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 140px;
+}
+
+.credentials-img{
+    margin-top: -160px;
+    background-image: url(../Assets/nike-shoe.png);
+    background-size: fill;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 350px;
+    width: 350px;
+}
+
+.logo-carousel ul {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.logo-carousel li {
+    display: inline-block;
+    margin: 0 60px;
+}
+
+.logo-carousel li:nth-child(1), .logo-carousel li:last-child {
+    display: none;
+}
+
+.credential-copy {
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+.credential-copy h3 {
+    margin-bottom: 20px;
+}
+.mission-copy {
+    padding: 0 17%;
+}
+
+.mission {
+    display: flex;
+    text-align: center;
+    background-color: #5B8CB3;
+    color: white;
+    padding: 190px 0;
+}
+
+.offering {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.offering-section {
+    display: flex;
+    justify-content: space-between;
+    background-color: #303030;
+    color: white;
+    min-width: 100vw;
+}
+
+.offering-section ul {
+    margin-top: 5px;
+}
+
+.col-left {
+    padding: 6% 0 6% 5%;
+    min-width: 50%;
+}
+
+.col-right {
+    min-width: 40%;
+}
+
+
+
+.os-middle {
+    background-color: #454545;
+}
+
+.os-bottom {
+    background-color: #515151;
+}
+
+.reveal-panel {
+    height: 100%;
+    min-width: 33%;
+    background-color: white;
+    color: #7D7D7D;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    -moz-box-shadow: inset 0 0 10px #000000;
+    -webkit-box-shadow: inset 0 0 10px #000000;
+    box-shadow: inset 0 0 10px #000000;
+}
+
+.reveal-panel h3 {
+    margin-top: 0.3em;
+    margin-bottom: 1em;
+}
+.service-list li {
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.service-list li:nth-child(2) {
+    margin: 0 15px;
+}

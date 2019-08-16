@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="stylesheet"  href="./CSS/reset.css">
+    <link rel="stylesheet"  href="./CSS/styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,800,900|Vollkorn+SC:700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+
+    <title>Contact</title>
+
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="./index.html"><img class="logotype" src="./assets/logotype.png" alt="coterie-type-logo"></a>
+            <ul>
+                <li><a href="./investors.html">Investors</a></li>
+                <li><a href="./how-it-works.html">Our Process</a></li>
+                <li><a href="./portfolio.html">Who We Fund</a></li>
+                <li><a class="nav-active" href="./contact.html">Contact</a></li>
+            </ul>
+            <div class="burger-container">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+            </div>
+        </nav> 
+    </header>
+
+    <div class="dropdown">
+        <ul>
+            <li><a href="./investors.html">Investors</a></li>
+            <li><a href="./how-it-works.html">Our Process</a></li>
+            <li><a href="./portfolio.html">Who We Fund</a></li>
+            <li><a href="./contact.html">Contact</a></li>
+        </ul>
+    </div>
+
+    <section class="hero">
+        <!-- HERO SECTION -->
+        <div class="hero-text">
+            <div class="red-tag">
+                    <div class="red-tag-line"></div>
+                    <div class="red-tag-text">Coterie: Fintech Angel Syndicate</div>
+            </div>
+            <h1>we want to hear from you</h1>
+            <p>There's a sky full of light and none of them stars. Just a silver-white flicker, a faithful reminder to us.
+            </p>
+        </div>
+        <div class="hero-img img-contact"></div>
+    </section>
+
+    <section>
+    <div class="container form-container">
+        <!-- CONTACT -->
+        <h2>Contact Us</h2>
+        <form action="/contact.html" method="POST" id="contact-form">
+            <ul>
+                <li><input placeholder="Company name" name="company-name" type="text" required/></li>
+                <li><input placeholder="Company website" name="company-website" type="text" required/></li>
+                <li><input placeholder="Contact email" name="contact-email" type="email" required/></li>
+                <li><textarea placeholder="A brief description of your company" name="company description" name="company-description" id="" cols="30" rows="10"></textarea></li>
+                <li>
+                    <div class="upload-btn-wrapper">
+                        <button class="btn"><i class="fas fa-cloud-upload-alt"></i>Upload a file</button>
+                        <input type="file" name="myfile" />
+                    </div>
+                </li>
+                <li><button id="submit-Btn">submit</button></li>
+            </ul> 
+        </form>
+    </div> 
+    </section>
+
+    <footer>
+        <nav>
+            <a href="/index.html"><img class="logotype" src="#" alt="coterie-type-logo"></a>
+            <ul>
+                <li><a href="/investors.html">Investors</a></li>
+                <li><a href="/how-it-works.html">Our Process</a></li>
+                <li><a href="/portfolio.html">Who We Fund</a></li>
+                <li><a href="/contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="copy-policies">
+            <ul>
+                <li><span>&copy Copyright Coterie 2019</span></li>
+                <li><a href="#">Terms and Conditions</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+            </ul>
+        </div>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
